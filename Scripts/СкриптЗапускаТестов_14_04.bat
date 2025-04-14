@@ -1,0 +1,2 @@
+"C:\Program Files (x86)\1cv8\8.3.25.1394\bin\1cv8c" /N"CI" /TestManager /Execute "C:\VA_Tests\vanessa-automation\vanessa-automation.epf" /IBConnectionString "File=""C:\1C_BASE\TestIRP"";" /C"StartFeaturePlayer;QuietInstallVanessaExt;VAParams=C:\VA_Tests\GitHub\TestQA\VAParams\VAParams_14_04_25.json"
+allure generate --clean "C:\VA_Tests\allure-result" && allure open
